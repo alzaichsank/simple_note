@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">base_template_kotlin</string>
+
+    <string name="transaction_details_today_format">Hari ini, %1$s</string>
+    <string name="transaction_details_yesterday_format">Kemarin, %1$s</string>
+    <string name="transaction_details_minute_only_format">%1$s menit</string>
+    <string name="transaction_details_hour_only_format">%1$s jam</string>
+</resources>
