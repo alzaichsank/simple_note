@@ -1,7 +1,7 @@
-# base_template_kotlin
-this for base template for kotlin android
+# simple_note 
 
-this template have:
-1. util
-2. base view
-3. already integreted with androidx
+this note have:
+1. Daily to do with specific time
+2. Riminder on specific time
+3. Grouping to do
+4. Can repeat
