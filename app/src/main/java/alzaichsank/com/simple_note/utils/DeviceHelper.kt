@@ -1,4 +1,4 @@
-package alzaichsank.com.base_template_kotlin.utils
+package alzaichsank.com.simple_note.utils
 
 import android.annotation.SuppressLint
 import android.content.Context

@@ -1,6 +1,4 @@
-package alzaichsank.com.base_template_kotlin.utils
-
-import alzaichsank.com.base_template_kotlin.BuildConfig
+package alzaichsank.com.simple_note.utils
 
 object Constants {
     // End Point

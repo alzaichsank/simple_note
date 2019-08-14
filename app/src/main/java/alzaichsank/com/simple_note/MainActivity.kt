@@ -1,4 +1,4 @@
-package alzaichsank.com.base_template_kotlin
+package alzaichsank.com.simple_note
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

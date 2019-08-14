@@ -1,4 +1,4 @@
-package alzaichsank.com.base_template_kotlin.extensions
+package alzaichsank.com.simple_note.extensions
 
 import java.text.DecimalFormat
 import java.text.DecimalFormatSymbols

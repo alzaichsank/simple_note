@@ -1,9 +1,6 @@
-package alzaichsank.com.base_template_kotlin.extensions
+package alzaichsank.com.simple_note.extensions
 
-import alzaichsank.com.base_template_kotlin.utils.Constants.EMAIL_FORMAT
-import alzaichsank.com.base_template_kotlin.utils.Constants.PASSWORD_FORMAT
-import android.text.TextUtils
-import android.util.Patterns
+import alzaichsank.com.simple_note.utils.Constants.PASSWORD_FORMAT
 import java.util.regex.Pattern
 
 /*This method use for checking user's input value and return boolean*/

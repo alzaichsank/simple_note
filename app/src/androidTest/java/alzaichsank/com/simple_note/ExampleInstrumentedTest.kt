@@ -1,4 +1,4 @@
-package alzaichsank.com.base_template_kotlin
+package alzaichsank.com.simple_note
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4

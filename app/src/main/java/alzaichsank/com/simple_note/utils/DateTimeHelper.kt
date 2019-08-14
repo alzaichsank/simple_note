@@ -1,6 +1,6 @@
-package alzaichsank.com.base_template_kotlin.utils
+package alzaichsank.com.simple_note.utils
 
-import alzaichsank.com.base_template_kotlin.R
+import alzaichsank.com.simple_note.R
 import android.annotation.SuppressLint
 import android.content.Context
 import org.joda.time.DateTime

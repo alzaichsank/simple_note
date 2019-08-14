@@ -1,4 +1,4 @@
-package alzaichsank.com.base_template_kotlin.extensions
+package alzaichsank.com.simple_note.extensions
 
 import android.util.Patterns
 import java.util.regex.Pattern

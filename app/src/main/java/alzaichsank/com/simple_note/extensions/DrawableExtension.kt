@@ -1,6 +1,6 @@
-package alzaichsank.com.base_template_kotlin.extensions
+package alzaichsank.com.simple_note.extensions
 
-import alzaichsank.com.base_template_kotlin.R
+import alzaichsank.com.simple_note.R
 import android.content.Context
 import android.graphics.PorterDuff
 import android.graphics.drawable.Drawable
