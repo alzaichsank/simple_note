@@ -5,4 +5,6 @@
     <string name="transaction_details_yesterday_format">Kemarin, %1$s</string>
     <string name="transaction_details_minute_only_format">%1$s menit</string>
     <string name="transaction_details_hour_only_format">%1$s jam</string>
+
+    <string name="progress_loading">Mohon Tunggu</string>
 </resources>

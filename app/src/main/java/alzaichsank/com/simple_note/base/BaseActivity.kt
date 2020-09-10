@@ -1,21 +1,17 @@
 package alzaichsank.com.simple_note.base
 
+import alzaichsank.com.simple_note.R
+import alzaichsank.com.simple_note.utils.LocalizationHelper
 import android.app.ProgressDialog
 import android.content.Context
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import id.digiva.health.DigiApplication
-import id.digiva.health.R
-import id.digiva.health.common.helper.LocalizationHelper
 import io.reactivex.disposables.CompositeDisposable
 
 open class BaseActivity : AppCompatActivity() {
-
-    protected val navigator by lazy { DigiApplication.digiComponent.provideNavigationService() }
-
+    
     protected var loading: ProgressDialog? = null
-
     protected val compositeDisposable = CompositeDisposable()
 
     override fun onBackPressed() {
@@ -33,7 +29,6 @@ open class BaseActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item.itemId
-
         /*if (id == android.R.id.home) {
             super.onBackPressed()
             return true

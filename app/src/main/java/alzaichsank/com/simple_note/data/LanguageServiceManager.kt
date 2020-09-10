@@ -1,6 +1,8 @@
 package alzaichsank.com.simple_note.data
 
 import alzaichsank.com.simple_note.data.base.BasePreferenceService
+import alzaichsank.com.simple_note.schema.LanguageSetting
+import alzaichsank.com.simple_note.schema.constanta.LanguageType
 import android.content.Context
 
 class LanguageServiceManager private constructor(context: Context) :
@@ -53,7 +55,7 @@ class LanguageServiceManager private constructor(context: Context) :
         private const val PREF_CONSENT = "LanguagePreference"
 
         private const val KEY_LANGUAGE_DATA =
-            "${BuildConfig.APPLICATION_ID}.local.preferences.language"
+            "app.local.preferences.language"
 
         private const val VALUE_LANGUAGE_DATA = "id"
     }
