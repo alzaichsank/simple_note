@@ -10,7 +10,7 @@ import androidx.appcompat.widget.Toolbar
 import io.reactivex.disposables.CompositeDisposable
 
 open class BaseActivity : AppCompatActivity() {
-    
+
     protected var loading: ProgressDialog? = null
     protected val compositeDisposable = CompositeDisposable()
 
