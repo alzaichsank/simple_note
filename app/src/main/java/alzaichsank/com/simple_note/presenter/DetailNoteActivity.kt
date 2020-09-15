@@ -1,5 +1,6 @@
 package alzaichsank.com.simple_note.presenter
 
+import alzaichsank.com.simple_note.R
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
