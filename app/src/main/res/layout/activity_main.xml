@@ -56,10 +56,11 @@
   </androidx.cardview.widget.CardView>
 
   <LinearLayout
+    android:id="@+id/ll_menu_main"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
     android:layout_margin="@dimen/medium_margin"
+    android:orientation="vertical"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/cv_pinned_note">
@@ -73,10 +74,10 @@
         android:id="@+id/cv_new"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
         android:layout_marginHorizontal="@dimen/tiny_margin"
         android:layout_marginVertical="@dimen/tiny_margin"
         android:layout_weight="1"
-        android:layout_margin="@dimen/small_margin"
         android:background="?selectableItemBackgroundBorderless"
         app:cardCornerRadius="@dimen/small_margin"
         app:cardElevation="@dimen/tiny_margin">
@@ -109,7 +110,7 @@
             app:layout_constraintEnd_toEndOf="@+id/image_view_new"
             app:layout_constraintStart_toStartOf="@+id/image_view_new"
             app:layout_constraintTop_toBottomOf="@+id/image_view_new"
-            tools:text="Text" />
+            tools:text="Cek list" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -155,7 +156,7 @@
             app:layout_constraintEnd_toEndOf="@+id/image_view_memo"
             app:layout_constraintStart_toStartOf="@+id/image_view_memo"
             app:layout_constraintTop_toBottomOf="@+id/image_view_memo"
-            tools:text="Image" />
+            tools:text="Catatan" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -219,4 +220,9 @@
     </LinearLayout>
   </LinearLayout>
 
+  <androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/medium_margin"
+    app:layout_constraintTop_toBottomOf="@+id/ll_menu_main" />
 </androidx.constraintlayout.widget.ConstraintLayout>
