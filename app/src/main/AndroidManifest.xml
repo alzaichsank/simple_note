@@ -11,7 +11,7 @@
     android:supportsRtl="true"
     android:theme="@style/AppTheme"
     tools:ignore="GoogleAppIndexingWarning">
-    <activity android:name=".presenter.DetailNoteActivity"></activity>
+    <activity android:name=".presenter.DetailNoteActivity"/>
     <activity android:name=".presenter.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

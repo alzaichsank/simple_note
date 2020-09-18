@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">base_template_kotlin</string>
+    <string name="app_name">DiNotin</string>
 
     <string name="transaction_details_today_format">Hari ini, %1$s</string>
     <string name="transaction_details_yesterday_format">Kemarin, %1$s</string>
