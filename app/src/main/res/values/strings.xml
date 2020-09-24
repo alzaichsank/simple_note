@@ -7,4 +7,9 @@
     <string name="transaction_details_hour_only_format">%1$s jam</string>
 
     <string name="progress_loading">Mohon Tunggu</string>
+
+    <string name="type_cek_list">Cek list</string>
+    <string name="type_note">Catatan</string>
+    <string name="type_voice">Voice</string>
+
 </resources>
