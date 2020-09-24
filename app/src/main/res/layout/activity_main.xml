@@ -110,7 +110,7 @@
             app:layout_constraintEnd_toEndOf="@+id/image_view_new"
             app:layout_constraintStart_toStartOf="@+id/image_view_new"
             app:layout_constraintTop_toBottomOf="@+id/image_view_new"
-            tools:text="Cek list" />
+            tools:text="@string/type_cek_list" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -156,7 +156,7 @@
             app:layout_constraintEnd_toEndOf="@+id/image_view_memo"
             app:layout_constraintStart_toStartOf="@+id/image_view_memo"
             app:layout_constraintTop_toBottomOf="@+id/image_view_memo"
-            tools:text="Catatan" />
+            tools:text="@string/type_note" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -210,7 +210,7 @@
               app:layout_constraintEnd_toEndOf="@+id/image_view_note"
               app:layout_constraintStart_toStartOf="@+id/image_view_note"
               app:layout_constraintTop_toBottomOf="@+id/image_view_note"
-              tools:text="Voice" />
+              tools:text="@string/type_voice" />
 
           </androidx.constraintlayout.widget.ConstraintLayout>
 
